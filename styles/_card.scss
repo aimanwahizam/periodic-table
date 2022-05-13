@@ -1,0 +1,25 @@
+@use "./variables" as *;
+
+.card {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &__element {
+        font-family: $font-primary;
+        font-size: $size-primary;
+        text-decoration: underline dotted 3px;
+        position: relative;
+        right: -4px;
+        top: -4px;
+    }
+
+    &__number {
+        font-size: $size-secondary;
+        position: relative;
+        top: 27px;
+        right: 33px;
+    }
+}

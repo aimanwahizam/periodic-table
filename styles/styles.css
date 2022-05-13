@@ -1,9 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 .container {
   border: 1px solid black;
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(9, 1fr);
   gap: 5px 5px;
   grid-auto-flow: row;
   grid-template-areas: ". . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . .";
+}
+
+.card {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card__element {
+  font-family: "Poppins", Helvetica;
+  font-size: 1.5rem;
+  -webkit-text-decoration: underline dotted 3px;
+          text-decoration: underline dotted 3px;
+  position: relative;
+  right: -4px;
+  top: -4px;
+}
+.card__number {
+  font-size: 1rem;
+  position: relative;
+  top: 27px;
+  right: 33px;
 }/*# sourceMappingURL=styles.css.map */
