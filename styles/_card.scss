@@ -23,3 +23,11 @@
         right: 33px;
     }
 }
+
+/*.card modifiers*/
+.card {
+    &--empty{
+        border: 2px solid black;
+        background-color: $color-background;
+    }
+}
