@@ -83,7 +83,7 @@ body {
   grid-area: 3/16/4/17;
 }
 
-#chlroine {
+#chlorine {
   grid-area: 3/17/4/18;
 }
 
@@ -239,7 +239,7 @@ body {
   grid-area: 6/1/7/2;
 }
 
-#caesium {
+#barium {
   grid-area: 6/2/7/3;
 }
 
@@ -355,12 +355,16 @@ body {
   grid-area: 7/12/8/13;
 }
 
-#flerovium {
+#nihonium {
   grid-area: 7/13/8/14;
 }
 
-#moscovium {
+#flerovium {
   grid-area: 7/14/8/15;
+}
+
+#moscovium {
+  grid-area: 7/15/8/16;
 }
 
 #livermorium {
@@ -373,6 +377,126 @@ body {
 
 #oganesson {
   grid-area: 7/18/8/19;
+}
+
+#empty-3 {
+  grid-area: 8/1/10/4;
+}
+
+#cerium {
+  grid-area: 8/4/9/5;
+}
+
+#praseodymium {
+  grid-area: 8/5/9/6;
+}
+
+#neodymium {
+  grid-area: 8/6/9/7;
+}
+
+#promethium {
+  grid-area: 8/7/9/8;
+}
+
+#samarium {
+  grid-area: 8/8/9/9;
+}
+
+#europium {
+  grid-area: 8/9/9/10;
+}
+
+#gadolinium {
+  grid-area: 8/10/9/11;
+}
+
+#terbium {
+  grid-area: 8/11/9/12;
+}
+
+#dysprosium {
+  grid-area: 8/12/9/13;
+}
+
+#holmium {
+  grid-area: 8/13/9/14;
+}
+
+#erbium {
+  grid-area: 8/14/9/15;
+}
+
+#thulium {
+  grid-area: 8/15/9/16;
+}
+
+#ytterbium {
+  grid-area: 8/16/9/17;
+}
+
+#lutetium {
+  grid-area: 8/17/9/18;
+}
+
+#empty-4 {
+  grid-area: 8/18/10/19;
+}
+
+#thorium {
+  grid-area: 9/4/10/5;
+}
+
+#protactinium {
+  grid-area: 9/5/10/6;
+}
+
+#uranium {
+  grid-area: 9/6/10/7;
+}
+
+#neptunium {
+  grid-area: 9/7/10/8;
+}
+
+#plutonium {
+  grid-area: 9/8/10/9;
+}
+
+#americium {
+  grid-area: 9/9/10/10;
+}
+
+#curium {
+  grid-area: 9/10/10/11;
+}
+
+#berkelium {
+  grid-area: 9/11/10/12;
+}
+
+#californium {
+  grid-area: 9/12/10/13;
+}
+
+#einsteinium {
+  grid-area: 9/13/10/14;
+}
+
+#fermium {
+  grid-area: 9/14/10/15;
+}
+
+#mendelevium {
+  grid-area: 9/15/10/16;
+}
+
+#nobelium {
+  grid-area: 9/16/10/17;
+}
+
+#lawrencium {
+  grid-area: 9/17/10/18;
 }
 
 .card {
