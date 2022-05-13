@@ -508,7 +508,7 @@ body {
 }
 .card__element {
   font-family: "Poppins", Helvetica;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   -webkit-text-decoration: underline dotted 3px;
           text-decoration: underline dotted 3px;
   position: relative;
@@ -518,12 +518,11 @@ body {
 .card__number {
   font-size: 1rem;
   position: relative;
-  top: 27px;
+  top: 37px;
   right: 33px;
 }
 
 /*.card modifiers*/
 .card--empty {
-  border: 2px solid black;
   background-color: lightcoral;
 }/*# sourceMappingURL=styles.css.map */

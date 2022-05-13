@@ -19,7 +19,7 @@
     &__number {
         font-size: $size-secondary;
         position: relative;
-        top: 27px;
+        top: 37px;
         right: 33px;
     }
 }
@@ -27,7 +27,6 @@
 /*.card modifiers*/
 .card {
     &--empty{
-        border: 2px solid black;
         background-color: $color-background;
     }
 }
